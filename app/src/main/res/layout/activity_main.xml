@@ -19,4 +19,20 @@
         android:inAnimation="@anim/anim_come_in"
         android:outAnimation="@anim/anim_get_out"
         android:background="@color/colorAccent"/>
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="跳转_代码实现"
+        app:layout_constraintTop_toBottomOf="@+id/viewfilpper"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="跳转_布局实现"
+        app:layout_constraintTop_toBottomOf="@+id/btn"/>
+
 </android.support.constraint.ConstraintLayout>

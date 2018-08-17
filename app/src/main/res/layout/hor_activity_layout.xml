@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:inAnimation="@anim/push_down_in"
+        android:outAnimation="@anim/push_down_out">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img4" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:inAnimation="@anim/push_up_in"
+        android:outAnimation="@anim/push_up_down">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img4" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:inAnimation="@anim/left_up_in"
+        android:outAnimation="@anim/left_up_down">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img4" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:inAnimation="@anim/right_up_in"
+        android:outAnimation="@anim/right_up_down">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img4" />
+    </ViewFlipper>
+
+</LinearLayout>

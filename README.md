@@ -2,7 +2,7 @@
 #### 效果图
 ![](https://github.com/leon5458/ViewFlipper/blob/master/ViewFlipper/viewfiller.gif)
 
-ViewFlipper使用介绍  
+ViewFlipper使用介绍
 
 在xml布局中的方法介绍:
 
